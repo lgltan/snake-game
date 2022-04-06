@@ -1,0 +1,45 @@
+* {
+    background-color: #333333;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #dddddd;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    margin: 2vh;
+    color: #65cf65;
+}
+
+button {
+    width: 4vw;
+    border-radius: 10%;
+    align-self: center;
+    margin: 4vh;
+}
+
+.main-grid {
+    background-color: #777777;
+    border: solid;
+    border-color: #527a50;
+    border-width: 2vh;
+    height: 75vh;
+    width: 75vh;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.square {
+    background-color: #222222;
+    height: 9.5%;
+    width: 9.5%;
+    margin: 0.25%;
+}
